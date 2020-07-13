@@ -1,5 +1,12 @@
 module.exports = {
-  presets: [
-    '@vue/cli-plugin-babel/preset'
-  ]
+    presets: [
+        '@vue/app',
+    ],
+    // 配置babel-plugin-import, 用于按需加载组件代码和样式
+    // plugins: [
+    //     [
+    //         "import",
+    //         { libraryName: "Antd", libraryDirectory: "es", style: true }
+    //     ]
+    // ],
 }
